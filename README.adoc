@@ -50,27 +50,6 @@ CAP
 
 * https://www.youtube.com/watch?v=srOgpXECblk[Google I/O 2009 - Transactions Across Datacenters]: distributed systems, transactions, fault-tolerance, consistency, replication, sharding, two phase commit, consensus protocol with App Engine datastore use case.
 
-=== Papers
-(also available in Papers folder)
-
-* https://www.cs.cmu.edu/~harchol/Papers/EuroSys20.pdf[Google, Borg: the next generation]
-* https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf[Google File System]
-* https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf[ZooKeeper: Wait-free coordination for Internet-scale systems]
-* https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf[Dynamo: Amazon’s Highly Available Key-value Store]
-** https://www.youtube.com/watch?v=hMt9yFp0JKM[Video, Christopher Batey - DYNAMO: the paper that changed the database world]
-* An Empirical Evaluation of Columnar Storage Formats
-* Froid: Optimization of Imperative Programs in a Relational Database (K. Ramachandra, et al., VLDB 2017)
-* Don't Hold My Data Hostage: A Case for Client Protocol Redesign (M. Raasveldt, et al., VLDB 2017)
-* An Overview of Query Optimization in Relational Systems (S. Chaudhuri, PODS 1998)
-* Dremel: A Decade of Interactive SQL Analysis at Web Scale (S. Melnik, et al., VLDB 2020)
-* Photon: A Fast Query Engine for Lakehouse Systems (A. Behm, et al., SIGMOD 2022)
-* The Snowflake Elastic Data Warehouse (B. Dageville, et al., SIGMOD 2016)
-* DuckDB: an Embeddable Analytical Database (M. Raasveldt, et al., SIGMOD 2019)
-* Yellowbrick: An Elastic Data Warehouse on Kubernetes (M. Cusack, et al., CIDR 2024)
-* Amazon Redshift Re-Invented (N. Armenatzoglou, et al., SIGMOD 2022)
-* https://dl.acm.org/doi/10.1145/3654983[Understanding the Performance Implications of the Design Principles in Storage-Disaggregated Databases]
-* SparkFuzz - searching correctness regressions in modern query engines
-* link:Papers/why_events_are_a_bad_idea.pdf[Why Events Are A Bad Idea (for high-concurrency servers)]
 
 === Video Courses
 
@@ -352,3 +331,19 @@ Papers
 * https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/[How Rocksdb Works]
 * https://www.youtube.com/watch?v=23OmqULDld0[SREcon22 - Dissecting the Humble LSM Tree and SSTable]. In this talk on YouTube, we will start from the ground up, describing what the LSM data structure is and implementing it using code. We'll then talk about the operational characteristics and how they are used in practice for high performance applications that need to store data.
 * https://www.youtube.com/watch?v=32LMicc0gRA[Redesigning OLTP for a New Order of Magnitude]. A InfoQ talk where Joran Greef discusses TigerBeetle, a new database, and why OLTP has a growing impedance mismatch, why the OLTP workload is becoming more contentious, why row locks, why storage faults, write stalls, and why non-determinism is now a problem.
+
+== Serverless Databases
+
+Collections of resources of how serverless databases work
+
+=== Papers
+
+1. https://dx.doi.org/10.1145/3035918.3056101[A. Verbitski et al., “Amazon Aurora,” Proceedings of the 2017 ACM International Conference on Management of Data.]
+2. P. Antonopoulos et al., “Socrates,” Proceedings of the 2019 International Conference on Management of Data.
+3. W. Cao et al., “PolarDB Serverless,” Proceedings of the 2021 International Conference on Management of Data.
+
+=== Blogs
+
+Neon
+
+1. https://neon.tech/blog/how-we-scale-an-open-source-multi-tenant-storage-engine-for-postgres-written-rust[How we scale an open source, multi-tenant storage engine for Postgres written in Rust].
