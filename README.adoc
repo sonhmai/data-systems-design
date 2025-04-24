@@ -325,6 +325,9 @@ Papers
 == Databases
 
 * https://transactional.blog/blog/2024-database-startups[2024 Database startups]
+* https://transactional.blog/blog/2025-decomposing-transactional-systems[Decomposing Transactional Systems]
+** https://brooker.co.za/blog/2025/04/17/decomposing.html[Decomposing Aurora DSQL]
+** https://www.firebolt.io/blog/decomposing-firebolt-transactions[Decomposing Firebolt transactions]
 
 === LSM Tree Storage Engine
 
@@ -344,6 +347,4 @@ Collections of resources of how serverless databases work
 
 === Blogs
 
-Neon
-
-1. https://neon.tech/blog/how-we-scale-an-open-source-multi-tenant-storage-engine-for-postgres-written-rust[How we scale an open source, multi-tenant storage engine for Postgres written in Rust].
+1. https://neon.tech/blog/how-we-scale-an-open-source-multi-tenant-storage-engine-for-postgres-written-rust[Neon. How we scale an open source, multi-tenant storage engine for Postgres written in Rust].
