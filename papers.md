@@ -5,6 +5,7 @@
 - [Papers](#papers)
   - [Compute](#compute)
   - [Storage](#storage)
+  - [Concurrency](#concurrency)
   - [Testing](#testing)
 
 ## Compute
@@ -17,7 +18,6 @@
 * An Overview of Query Optimization in Relational Systems (S. Chaudhuri, PODS 1998)
 * Dremel: A Decade of Interactive SQL Analysis at Web Scale (S. Melnik, et al., VLDB 2020)
 * Photon: A Fast Query Engine for Lakehouse Systems (A. Behm, et al., SIGMOD 2022)
-* [Why Events Are A Bad Idea (for high-concurrency servers)](Papers/why_events_are_a_bad_idea.pdf)
 
 ## Storage
 
@@ -39,6 +39,12 @@ Databases
 
 Storage Formats
 * An Empirical Evaluation of Columnar Storage Formats.
+
+## Concurrency
+* [Why Events Are A Bad Idea (for high-concurrency servers)](Papers/why_events_are_a_bad_idea.pdf)
+* [Learning from Mistakes — A Comprehensive Study on Real World Concurrency Bug Characteristics](https://www.cs.columbia.edu/~junfeng/08fa-e6998/sched/readings/concurrency-bugs.pdf)
+* [Everything You Always Wanted to Know About Synchronization but Were Afraid to Ask (SIGOPS 2013)](https://sigops.org/s/conferences/sosp/2013/papers/p33-david.pdf)
+
 
 ## Testing
 
