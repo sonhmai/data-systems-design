@@ -252,6 +252,18 @@ Network
  (https://slack.engineering/continuous-load-testing/)
 
 
+=== Deterministic Simulation Testing (DST)
+
+* https://apple.github.io/foundationdb/testing.html[FoundationDB - Testing. Where DST is made famous.]
+* https://www.warpstream.com/blog/deterministic-simulation-testing-for-our-entire-saas[Warpstream - Deterministic Simulation Testing for Our Entire SaaS]
+* https://www.polarsignals.com/blog/posts/2025/07/08/dst-rust[Polar Signals - Deterministic Simulation Testing in Rust: A Theater Of State Machines]
+* https://docs.tigerbeetle.com/about/vopr/[TigerBeetle - Deterministic Simulation Testing]
+
+Videos
+
+* https://www.youtube.com/live/29Vz5wkoUR8[Youtube, FF meetup #4 - Deterministic simulation testing (Pekka Enberg, Turso)]
+* https://www.youtube.com/watch?v=KoxXb2mBVuY[Youtube, Testing Distributed Systems the right way ft. Will Wilson (Antithesis)]
+
 == Operations
 
 Observability, Monitoring
